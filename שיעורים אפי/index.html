@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork-1</title>
+    <p>Welcome to Calucalter</p>
+ 
+    
+</head>
+<body>
+    <div>
+        <button type="button" value="1" onclick="showValue(this)">1</button>
+        <button type="button" value="2" onclick="showValue(this)">2</button>
+        <button type="button" value="3" onclick="showValue(this)">3</button>
+
+    </div>
+    <div>
+        <button type="button" value="4" onclick="showValue(this)">4</button>
+        <button type="button" value="5" onclick="showValue(this)">5</button>
+        <button type="button" value="6" onclick="showValue(this)">6</button>
+
+    </div>
+    <div>
+        <button type="button" value="7" onclick="showValue(this)">7</button>
+        <button type="button" value="8" onclick="showValue(this)">8</button>
+        <button type="button" value="9" onclick="showValue(this)">9</button>
+
+    </div>
+    <div><button type="button" value="0" onclick="showValue(this)">0</button></div>
+    <div>
+        <button type="button" class="MathematicalOperation" value="+" onclick="mathOperation(this)">+</button>
+        <button type="button" class="MathematicalOperation" value="-" onclick="mathOperation(this)">-</button>
+        <button type="button" class="MathematicalOperation" value="x" onclick="mathOperation(this)">x</button>
+        <button type="button" class="MathematicalOperation" value="/" onclick="mathOperation(this)">/</button>
+
+    
+
+    </div>
+
+    <div>
+        <button type="button" onclick="cal()">Solve</button>
+        <button type="button" onclick="clear()">Clear</button>
+    </div>
+    <div id="output"></div>
+    <div id="result"></div>
+    <script src="index.js"></script>
+</body>
+</html>

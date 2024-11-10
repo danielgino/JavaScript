@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork1-CheckBox,Radio-Button</title>
+</head>
+<body>
+    <fieldset>
+        <legend id="question1">What your interests</legend>
+        <div>
+          <input type="radio" id="coding" name="interest" value="coding" />
+          <label for="coding">Coding</label>
+        </div>
+        <div>
+          <input type="radio" id="music" name="interest" value="music" />
+          <label for="music">Music</label>
+        </div>
+        <div>
+            <input type="radio" id="sport" name="interest" value="sport" />
+            <label for="sport">Sport</label>
+          </div>
+          <div>
+            <input type="radio" id="Working" name="interest" value="working" />
+            <label for="working">Working</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend id="question2">Which food you like?</legend>
+        <div>
+          <input type="radio" id="icecream" name="food" value="coding" />
+          <label for="icecream">Ice Cream</label>
+        </div>
+        <div>
+          <input type="radio" id="chocolate" name="food" value="chocolate" />
+          <label for="chocolate">Chocolate</label>
+        </div>
+        <div>
+            <input type="radio" id="chips" name="food" value="chips" />
+            <label for="chips">Chips</label>
+          </div>
+          <div>
+            <input type="radio" id="dorits" name="food" value="dorits" />
+            <label for="dorits">Dorits</label>
+          </div>
+      </fieldset>
+      <button id="send" onclick="makeResults()">Send</button>
+      <center>
+        <p id="result1"> </p>
+        <br>
+        <p id="result2"> </p>
+
+      </center>
+      <script src="index.js"></script>
+</body>
+</html>
